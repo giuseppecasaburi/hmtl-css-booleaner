@@ -3,7 +3,6 @@ body{
     margin: auto;
 }
 
-
 #logo{
     background-image: url(../img/pattern.png);
     height: 180px;
@@ -15,12 +14,12 @@ body{
     color: rgb(25, 166, 232);
 }
 
-.margin{
-    margin-top: 0px;
-}
-
 h1{
     margin-bottom: 0px;
+}
+
+.margin{
+    margin-top: 0px;
 }
 
 #descrizione{
@@ -31,6 +30,11 @@ h1{
     background-color: yellow;
 }
 
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
 #elementi-tabella{
     background-color: rgb(25, 166, 232);
     text-align: left;
@@ -39,11 +43,6 @@ h1{
 
 .colore-tabella{
     background-color: skyblue;
-}
-
-table{
-    border-spacing: 0;
-    width: 100%;
 }
 
 .celle{
