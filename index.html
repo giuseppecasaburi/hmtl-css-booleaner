@@ -12,7 +12,10 @@
 
     <!-- inizio header -->
     <header id="header">
-        <img src="./img/pattern.png" alt="Sfondo dell'intestazione di pagina" id="intestazione">
+        <div id="sfondo">
+            <img src="./img/logo.svg" alt="logo" id="logo">
+        </div>
+
     </header>
     <!-- fine header -->
 
@@ -20,19 +23,30 @@
     <main>
         <section>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p>Scritto da <span>The Booleaner</span><br>il 10/10/2020</p>
+            <p class="margin">Scritto da <span id="autore">The Booleaner</span><br>il 10/10/2020</p>
         </section>
 
         <section>
             <img src="./img/tim-1.jpg" alt="Tim Berners-Lee che parla ad una conferenza">
             <img src="./img/tim-2.jpg" alt="Tim Berners-Lee in uno scatto fotografico al sotto ad un portone">
-            <p>1st Photo: Jonh S. and James L. Knight Foundation, by Scott Henrichsen <br> 2nd Photo: Wikimedia, by Paul
-                Clarke</p>
+            <p class="margin" id="descrizione">1st Photo: Jonh S. and James L. Knight Foundation, by Scott Henrichsen
+                <br> 2nd Photo: Wikimedia, by Paul
+                Clarke
+            </p>
         </section>
 
         <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto harum eaque exercitationem, optio,
-                itaque modi ab magni quae est non ea dicta ut minus quam quas ullam rerum nulla.</p>
+                itaque modi ab magni quae est non ea dicta ut minus quam quas ullam rerum nulla. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. <span class="evidenziatore">Veritatis illo, deserunt perspiciatis
+                    nisi, hic, culpa ducimus ut consequatur dolorum</span> voluptatem cum libero sapiente id! Dicta
+                facere
+                deserunt quos
+                voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam dolores vel vero
+                soluta necessitatibus similique aliquid repellat eos! Ea distinctio aperiam nihil, nisi odio veritatis
+                voluptate. Asperiores, ipsa soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed totam
+                harum repellendus doloremque ullam nobis maxime in sapiente aut explicabo laudantium, sequi aliquam
+                expedita, asperiores hic! Tenetur hic quod illum?</p>
 
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corporis nulla quo nihil sunt
@@ -50,14 +64,14 @@
         <section>
             <table>
                 <thead>
-                    <tr>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
+                    <tr id="elementi-tabella">
+                        <th class="celle">Lorem ipsum dolor</th>
+                        <th class="celle">Lorem ipsum dolor</th>
+                        <th id="colonna">Lorem ipsum dolor</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="colore-tabella">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio perspiciatis at cumque
@@ -71,7 +85,7 @@
                             nisi sit temporibus in sed, debitis numquam quae eligendi voluptatem, saepe quibusdam
                             quaerat? Dolores omnis laborum animi.</td>
                     </tr>
-                    <tr>
+                    <tr class="colore-tabella">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum optio perspiciatis at cumque
@@ -81,16 +95,22 @@
                 </tbody>
             </table>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consequuntur corrupti magnam eaque rerum
-                minus optio! <span>Temporibus ea iste sequi aut saepe aperiam nihil itaque!</span> Temporibus labore voluptatibus
-                illum qui.</p>
+                minus optio! <span class="evidenziatore">Temporibus ea iste sequi aut saepe aperiam nihil itaque!</span> Temporibus labore
+                voluptatibus
+                illum qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere id rerum quod animi
+                temporibus sint labore cupiditate inventore illo voluptas eius velit reiciendis quo quasi aliquid,
+                obcaecati atque consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus officiis
+                aperiam provident iste eligendi fugit aspernatur autem veniam doloremque quia ad quod itaque explicabo,
+                dolor odit cumque nostrum quidem consequatur.</p>
         </section>
     </main>
     <!-- fine main -->
 
     <!-- Footer con suggerimenti finali -->
     <footer>
-        <h4>Potrebbero interessarti</h4>
+        <h3 id="consigli">Potrebbero interessarti</h3>
         <div id="lorem-uno">Lorem ipsum dolor</div>
+        <br>
         <div id="lorem-due">Lorem ipsum dolor</div>
     </footer>
 </body>

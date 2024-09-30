@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+
+#logo{
+    background-image: url(../img/pattern.png);
+    height: 180px;
+    width: 100%;
+    background-color: rgb(25, 166, 232);
+}
+
+#autore{
+    color: rgb(25, 166, 232);
+}
+
+.margin{
+    margin-top: 0px;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+#descrizione{
+    font-style: bold;
+}
+
+.evidenziatore{
+    background-color: yellow;
+}
+
+#elementi-tabella{
+    background-color: rgb(25, 166, 232);
+    text-align: left;
+    color: white;
+}
+
+.colore-tabella{
+    background-color: skyblue;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+.celle{
+    width: 20%;
+}
+
+#colonna{
+    width: 60%;
+}
+
+#consigli{
+    color: gray;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#lorem-uno{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/monitor.jpg);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+#lorem-due{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/graph.jpg);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
