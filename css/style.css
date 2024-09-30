@@ -3,6 +3,11 @@ body{
     margin: auto;
 }
 
+#allineamento{
+    width: 95%;
+    margin: auto
+}
+
 #logo{
     background-image: url(../img/pattern.png);
     height: 180px;
